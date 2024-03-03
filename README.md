@@ -21,7 +21,6 @@ Expense Tracker is a simple application designed for learning purposes.
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - For building a robust and maintainable architecture
 - [Room Persistence Library](https://developer.android.com/topic/libraries/architecture/room) - For local data storage
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
-- [Retrofit](https://square.github.io/retrofit/) - For networking
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - For creating interactive charts
 
 ## Architecture
