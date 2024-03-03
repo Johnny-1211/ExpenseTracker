@@ -28,9 +28,5 @@ Expense Tracker is a simple application designed for learning purposes.
 The project follows the MVVM (Model-View-ViewModel) architecture pattern. It separates the user interface from the business logic and backend data, making the codebase more modular, testable, and maintainable.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## License
 This project is licensed under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
