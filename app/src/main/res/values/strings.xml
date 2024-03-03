@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">expenseTracker</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="enter_amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="save">Save</string>
+    <string name="date">Date (YYYY-MM-DD)</string>
+    <string name="amount">amount</string>
+    <string name="amount_title">Amount</string>
+    <string name="edit">EDIT</string>
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+    <string name="Home">Home</string>
+</resources>

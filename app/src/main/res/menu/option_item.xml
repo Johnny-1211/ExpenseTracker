@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/outline_home_24"
+        android:title="Dashboard"  />
+    <item
+        android:id="@+id/transaction"
+        android:icon="@drawable/baseline_transaction_24"
+        android:title="Transaction" />
+
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/outline_insert_chart_outlined_24"
+        android:title="Statistics" />
+</menu>

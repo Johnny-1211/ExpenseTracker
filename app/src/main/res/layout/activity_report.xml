@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_flesh"
+    tools:context=".report.ReportActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/menu_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/flesh_color"
+        app:title="Financial Report"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_toolbar"
+        android:layout_marginTop="40dp"/>
+
+    <RadioGroup
+        android:checkedButton="@+id/income_btn"
+        android:id="@+id/toggle"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/control_switch_background_border"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pie_chart">
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="3dp"
+            android:paddingBottom="1dp"
+            android:id="@+id/income_btn"
+            android:background="@drawable/control_switch_background_selector_middle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/income"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/control_switch_color_selector"/>
+        <RadioButton
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:paddingBottom="1dp"
+            android:id="@+id/expense_btn"
+            android:background="@drawable/control_switch_background_selector_middle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/expense"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/control_switch_color_selector"/>
+
+    </RadioGroup>
+
+<!--    <com.github.mikephil.charting.charts.HorizontalBarChart-->
+<!--        android:id="@+id/horizontal_bar_chart"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/toggle"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_report_total_trans"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_report_transaction"
+        app:layout_constraintTop_toBottomOf="@+id/toggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

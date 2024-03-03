@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="detail_layout">
+        <item name="android:layout_marginTop">35dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/rv_border</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

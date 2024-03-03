@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#f00</color>
+    <color name="blue">#03A9F4</color>
+    <color name="orange">#FA5A27</color>
+    <color name="pink">#FA4F89</color>
+    <color name="dark_pink">#591E31</color>
+    <color name="transparent">#FFE7C1</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="controlBackground">#ffffffff</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#67EC6D</color>
+    <color name="grey">#D5D4D4</color>
+    <color name="light_red">#FD6767</color>
+    <color name="flesh_color">#FFE7C1</color>
+    <color name="light_flesh">#FDE9D9</color>
+
+
+
+
+
+
+</resources>
